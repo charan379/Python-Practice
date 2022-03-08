@@ -7,5 +7,3 @@ while (len(choice) != 1 or choice.isalpha() == False) or choice not in ['y','n']
 
 print(choice.isalpha())
 print(choice)
-
-
