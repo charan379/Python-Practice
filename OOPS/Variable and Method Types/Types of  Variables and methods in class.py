@@ -45,7 +45,7 @@ class tv:
         print("Hi Enjoy programing")
 
     global SayHi
-    def SayHi():
+    def SayHi(self):
         print(" Hello")
 
 
