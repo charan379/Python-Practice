@@ -3,7 +3,7 @@ from threading import *
 
 
 def pevnes(num):
-    #print(f'printing evens nums upto : {num}')
+    # print(f'printing evens nums upto : {num}')
     for x in range(num):
         time.sleep(0.1)
         if x % 2 == 0:
@@ -11,7 +11,7 @@ def pevnes(num):
 
 
 def podd(num):
-    #print(f'printing odd nums upto : {num}')
+    # print(f'printing odd nums upto : {num}')
     for x in range(num):
         time.sleep(0.1)
         if x % 2 == 1:
@@ -26,6 +26,5 @@ odds.start()
 evens.join()
 odds.join()
 end_time = time.perf_counter()
-
 print("time taken = ", round(end_time - str_time), "Seconds")
 input()
