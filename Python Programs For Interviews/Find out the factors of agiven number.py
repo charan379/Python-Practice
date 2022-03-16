@@ -2,7 +2,6 @@
 
 x = int(input('Enter a number : '))
 
-for num in range(2, x):
+for num in range(1, x+1):
     if x % num == 0:
         print(num)
-        break
